@@ -45,13 +45,14 @@ const Verticals = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-2xl">
-            <span className="text-secondary font-bold tracking-widest text-xs uppercase mb-2 block">Nuestra Propuesta de Valor</span>
+            <span className="text-secondary font-bold tracking-widest text-xs uppercase mb-2 block">Gestionamos viajes con propósito</span>
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
               Arquitectura de <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">Experiencias Globales</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed border-l-4 border-secondary/30 pl-6">
-              No organizamos simples traslados. Estructuramos plataformas de conocimiento y relacionamiento que potencian la competitividad de tu empresa.
+              Te garantizamos la ventaja competitiva que tu campo necesita para liderar.
+              Trabajamos programas de inmersión técnica a medida, diseñados para grupos que tienen la mirada puesta en el futuro.
             </p>
           </div>
           <div className="hidden md:block">
