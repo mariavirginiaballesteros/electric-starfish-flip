@@ -12,8 +12,8 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Viajes Técnicos", path: "/viajes-tecnicos" },
-    { name: "Corporativos", path: "/corporativos" },
-    { name: "Incentivos", path: "/incentivos" },
+    { name: "Viajes Corporativos", path: "/corporativos" },
+    { name: "Viajes de Incentivo", path: "/incentivos" },
     { name: "Nosotros", path: "/nosotros" },
   ];
 
@@ -29,7 +29,7 @@ const Navbar = () => {
             />
           </Link>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link 
                 key={link.path}
@@ -43,13 +43,13 @@ const Navbar = () => {
               </Link>
             ))}
             <Link to="/contacto">
-              <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 font-bold shadow-md hover:shadow-lg transition-all">
+              <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 font-bold shadow-md hover:shadow-lg transition-all">
                 Contacto
               </Button>
             </Link>
           </div>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-primary p-2">
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -59,7 +59,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-b border-gray-100 p-6 space-y-4 animate-in slide-in-from-top duration-300 shadow-xl">
+        <div className="lg:hidden bg-white border-b border-gray-100 p-6 space-y-4 animate-in slide-in-from-top duration-300 shadow-xl">
           {navLinks.map((link) => (
             <Link 
               key={link.path}
