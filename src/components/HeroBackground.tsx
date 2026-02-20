@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
-    alt: "Tecnología Agro de Vanguardia"
+    url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
+    alt: "Tecnología Agro de Vanguardia en Campo"
   },
   {
     url: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&q=80&w=2000",
