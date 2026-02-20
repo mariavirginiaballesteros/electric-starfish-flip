@@ -21,7 +21,7 @@ const ViajesTecnicos = () => {
             </div>
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">Viajes Técnicos</h1>
             <p className="text-xl text-blue-100 max-w-2xl leading-relaxed">
-              Diseñamos misiones de aprendizaje en los centros neurálgicos del agrotech mundial. No es turismo, es transferencia de conocimiento.
+              Lideramos expediciones estratégicas a los epicentros de la innovación global. No diseñamos viajes; decodificamos el futuro del agro para convertirlo en rentabilidad inmediata para su empresa.
             </p>
           </div>
         </section>
