@@ -15,7 +15,7 @@ const trips = [
       "Shanghai: Networking con líderes tecnológicos.",
       "Estambul: Mercados estratégicos Oriente-Occidente."
     ],
-    tag: "EXPEDICIÓN CHINA 2025"
+    tag: "INMERSIÓN AL FUTURO: China"
   },
   {
     title: "MISIÓN AGROTECH: EE.UU.",
@@ -28,7 +28,7 @@ const trips = [
       "Networking exclusivo con productores 4.0.",
       "Análisis de rentabilidad basada en datos."
     ],
-    tag: "CINTURÓN MAICERO 2025"
+    tag: "MISIÓN AGROTECH: EE.UU."
   }
 ];
 
