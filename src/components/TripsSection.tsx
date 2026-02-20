@@ -7,7 +7,7 @@ const trips = [
   {
     title: "INMERSIÓN AL FUTURO: China",
     slogan: "Capturando el mañana para liderar hoy.",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=800",
     purpose: "Esta expedición técnica no es solo un recorrido; es una herramienta de precisión diseñada para el Productor 4.0.",
     highlights: [
       "Beijing: Centros de I+D y escala productiva.",
