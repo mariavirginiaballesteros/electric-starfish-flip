@@ -4,24 +4,24 @@ import React, { useState, useEffect } from 'react';
 
 const images = [
   {
+    url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
+    alt: "Robot Agrícola Autónomo al atardecer"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000",
+    alt: "Patrones geométricos de agricultura de precisión"
+  },
+  {
     url: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=2000",
-    alt: "Robot Agrícola Autónomo en Campo"
+    alt: "Macro de brazo robótico analizando cultivos"
   },
   {
-    url: "https://images.unsplash.com/photo-1508197149814-0cc02e8b7f74?auto=format&fit=crop&q=80&w=2000",
-    alt: "Drones de Precisión sobre Cultivos"
+    url: "https://images.unsplash.com/photo-1530836361280-2b9766aef4fd?auto=format&fit=crop&q=80&w=2000",
+    alt: "Vista de drone sobre campos tecnológicos"
   },
   {
-    url: "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80&w=2000",
-    alt: "Tecnología de Invernadero Inteligente"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=2000",
-    alt: "Brazo Robótico en Laboratorio Agro"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&q=80&w=2000",
-    alt: "Agricultura Digital y Maquinaria Moderna"
+    url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
+    alt: "Invernadero inteligente de alta tecnología"
   }
 ];
 
@@ -51,7 +51,6 @@ const HeroBackground = () => {
           />
         </div>
       ))}
-      {/* Overlay para asegurar legibilidad del texto */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-transparent"></div>
       <div className="absolute inset-0 bg-black/20"></div>
       

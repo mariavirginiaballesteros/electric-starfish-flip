@@ -13,12 +13,11 @@ const ViajesTecnicos = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-20">
-        {/* Hero Section Rediseñado */}
         <section className="relative h-[75vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&q=90&w=2000" 
-              alt="Innovation Hub Shanghai" 
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000" 
+              alt="Innovación Global y Tecnología" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/75 to-transparent"></div>

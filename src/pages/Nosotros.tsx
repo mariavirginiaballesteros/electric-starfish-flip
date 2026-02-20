@@ -21,8 +21,8 @@ const Nosotros = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Nuestra esencia"
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200" 
+                  alt="Innovación y Tecnología"
                   className="w-full h-full object-cover"
                 />
               </div>

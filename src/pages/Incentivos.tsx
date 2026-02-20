@@ -36,12 +36,11 @@ const Incentivos = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-20">
-        {/* Hero Section con Imagen de Fondo Premium */}
         <section className="relative h-[80vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=90&w=2000" 
-              alt="Luxury Incentive Destination" 
+              src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=90&w=2000" 
+              alt="Destino de Incentivo Premium" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/60 to-transparent"></div>
@@ -70,7 +69,6 @@ const Incentivos = () => {
           </div>
         </section>
 
-        {/* Narrative Section */}
         <section className="py-24 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -101,7 +99,7 @@ const Incentivos = () => {
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                   <img 
                     src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=90&w=1200" 
-                    alt="Premium Team Experience" 
+                    alt="Experiencia de Equipo Premium" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -111,7 +109,6 @@ const Incentivos = () => {
           </div>
         </section>
 
-        {/* Pillars Grid */}
         <section className="py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto mb-20">
@@ -137,7 +134,6 @@ const Incentivos = () => {
           </div>
         </section>
 
-        {/* Stats / Trust Section */}
         <section className="py-24 bg-primary text-white overflow-hidden relative">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
@@ -168,7 +164,7 @@ const Incentivos = () => {
               <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl border border-white/10">
                 <img 
                   src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=90&w=1200" 
-                  alt="Team Building Success" 
+                  alt="Éxito en Team Building" 
                   className="w-full h-full object-cover"
                 />
               </div>

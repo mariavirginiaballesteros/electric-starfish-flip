@@ -36,12 +36,11 @@ const Corporativo = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-20">
-        {/* Hero Section con Imagen de Alta Definición */}
         <section className="relative h-[70vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000" 
-              alt="Corporate Excellence" 
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000" 
+              alt="Excelencia Corporativa" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/70 to-transparent"></div>
@@ -70,7 +69,6 @@ const Corporativo = () => {
           </div>
         </section>
 
-        {/* Narrative Section */}
         <section className="py-24 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -100,8 +98,8 @@ const Corporativo = () => {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1000" 
-                    alt="Corporate Meeting" 
+                    src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200" 
+                    alt="Equipo Corporativo Tecnológico" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -111,7 +109,6 @@ const Corporativo = () => {
           </div>
         </section>
 
-        {/* Solutions Grid */}
         <section className="py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto mb-20">
@@ -137,7 +134,6 @@ const Corporativo = () => {
           </div>
         </section>
 
-        {/* Stats / Trust Section */}
         <section className="py-24 bg-primary text-white overflow-hidden relative">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
@@ -168,7 +164,7 @@ const Corporativo = () => {
               <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl border border-white/10">
                 <img 
                   src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Global Networking" 
+                  alt="Networking Global" 
                   className="w-full h-full object-cover"
                 />
               </div>
