@@ -40,7 +40,7 @@ const Incentivos = () => {
         <section className="relative h-[80vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=90&w=2000" 
               alt="Luxury Incentive Destination" 
               className="w-full h-full object-cover"
             />
@@ -100,8 +100,8 @@ const Incentivos = () => {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=1000" 
-                    alt="Team Celebration" 
+                    src="https://images.unsplash.com/photo-1522158634235-47a056dc41fa?auto=format&fit=crop&q=90&w=1200" 
+                    alt="Premium Team Experience" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -167,7 +167,7 @@ const Incentivos = () => {
               </div>
               <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl border border-white/10">
                 <img 
-                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1000" 
+                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=90&w=1200" 
                   alt="Team Building Success" 
                   className="w-full h-full object-cover"
                 />
