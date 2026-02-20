@@ -3,6 +3,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import HeroBackground from './HeroBackground';
 
 const Hero = () => {
@@ -35,13 +36,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-5">
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-10 h-16 text-lg group w-full sm:w-auto">
-              Explorar Viajes con Propósito
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-            </Button>
-            <Button size="lg" variant="outline" className="text-white border-white/30 hover:bg-white/10 backdrop-blur-sm rounded-full px-10 h-16 text-lg w-full sm:w-auto hover:text-white font-medium">
-              Nuestra Metodología
-            </Button>
+            <Link to="/viajes-tecnicos" className="w-full sm:w-auto">
+              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-10 h-16 text-lg group w-full">
+                Explorar Viajes
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
