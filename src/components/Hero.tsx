@@ -40,7 +40,7 @@ const Hero = () => {
               </Button>
             </Link>
             <Link to="/nosotros" className="w-full sm:w-auto">
-              <Button size="lg" variant="outline" className="text-white border-white/30 hover:bg-white/10 backdrop-blur-sm rounded-full px-10 h-16 text-lg w-full">
+              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-10 h-16 text-lg w-full">
                 Nuestra Metodología
               </Button>
             </Link>
