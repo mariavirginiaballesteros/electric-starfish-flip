@@ -7,7 +7,7 @@ const trips = [
   {
     title: "INMERSIÓN AL FUTURO: China",
     slogan: "Capturando el mañana para liderar hoy.",
-    image: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&q=80&w=800",
     purpose: "Esta expedición técnica no es solo un recorrido; es una herramienta de precisión diseñada para el Productor 4.0.",
     highlights: [
       "Beijing: Centros de I+D y escala productiva.",
@@ -20,7 +20,7 @@ const trips = [
   {
     title: "MISIÓN AGROTECH: EE.UU.",
     slogan: "Donde el dato se convierte en el activo principal.",
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=800",
     purpose: "Una inmersión profunda en el corazón de la agricultura de precisión para entender la rentabilidad por hectárea.",
     highlights: [
       "Visitas a centros líderes (Bayer, Corteva).",
