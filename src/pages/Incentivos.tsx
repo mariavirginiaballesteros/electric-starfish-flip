@@ -36,15 +36,15 @@ const Incentivos = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-20">
-        {/* Hero Section con Imagen de Alta Definición */}
-        <section className="relative h-[70vh] flex items-center overflow-hidden">
+        {/* Hero Section con Imagen de Fondo Premium */}
+        <section className="relative h-[80vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1522158634235-47a056dc41fa?auto=format&fit=crop&q=80&w=2000" 
-              alt="Incentive Travel Experience" 
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2000" 
+              alt="Luxury Incentive Destination" 
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/70 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/60 to-transparent"></div>
           </div>
           
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -61,7 +61,7 @@ const Incentivos = () => {
                 Diseñamos experiencias de alto impacto emocional que no solo reconocen el éxito, sino que lo multiplican a través de la inspiración y el aprendizaje.
               </p>
               <Link to="/contacto">
-                <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-full px-10 h-14">
+                <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-full px-10 h-14 shadow-lg shadow-amber-500/20 transition-all hover:scale-105">
                   Diseñar una Experiencia
                   <ArrowRight className="ml-2" size={20} />
                 </Button>
