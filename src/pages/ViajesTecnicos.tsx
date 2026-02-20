@@ -17,7 +17,7 @@ const ViajesTecnicos = () => {
         <section className="relative h-[75vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1538428494232-9c0d8d3a50f0?auto=format&fit=crop&q=90&w=2000" 
+              src="https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&q=90&w=2000" 
               alt="Innovation Hub Shanghai" 
               className="w-full h-full object-cover"
             />
