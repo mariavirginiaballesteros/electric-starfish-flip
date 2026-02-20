@@ -3,6 +3,7 @@
 import React from 'react';
 import { Cpu, Building2, Trophy, ArrowUpRight } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
+import { Link } from 'react-router-dom';
 
 const verticals = [
   {
@@ -12,7 +13,8 @@ const verticals = [
     icon: Cpu,
     gradient: "from-blue-600 to-cyan-500",
     shadow: "shadow-blue-500/20",
-    iconColor: "text-blue-600"
+    iconColor: "text-blue-600",
+    path: "/viajes-tecnicos"
   },
   {
     title: "Gestión Estratégica",
@@ -21,7 +23,8 @@ const verticals = [
     icon: Building2,
     gradient: "from-emerald-600 to-teal-500",
     shadow: "shadow-emerald-500/20",
-    iconColor: "text-emerald-600"
+    iconColor: "text-emerald-600",
+    path: "/corporativo"
   },
   {
     title: "Capital Humano",
@@ -30,7 +33,8 @@ const verticals = [
     icon: Trophy,
     gradient: "from-amber-500 to-orange-500",
     shadow: "shadow-amber-500/20",
-    iconColor: "text-amber-600"
+    iconColor: "text-amber-600",
+    path: "/incentivos"
   }
 ];
 
@@ -55,42 +59,41 @@ const Verticals = () => {
               Trabajamos programas de inmersión técnica a medida, diseñados para grupos que tienen la mirada puesta en el futuro.
             </p>
           </div>
-          <div className="hidden md:block">
-            {/* Elemento decorativo o botón secundario si fuera necesario */}
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {verticals.map((v, i) => (
-            <Card key={i} className="group relative bg-white border-gray-100 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 h-full">
-              <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${v.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500`}></div>
-              
-              <CardContent className="p-8 h-full flex flex-col">
-                <div className="mb-8 flex justify-between items-start">
-                  <div className={`w-16 h-16 rounded-2xl bg-white border border-gray-100 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-500 ${v.iconColor}`}>
-                    <v.icon size={32} strokeWidth={1.5} />
+            <Link key={i} to={v.path} className="block h-full">
+              <Card className="group relative bg-white border-gray-100 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 h-full cursor-pointer">
+                <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${v.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500`}></div>
+                
+                <CardContent className="p-8 h-full flex flex-col">
+                  <div className="mb-8 flex justify-between items-start">
+                    <div className={`w-16 h-16 rounded-2xl bg-white border border-gray-100 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-500 ${v.iconColor}`}>
+                      <v.icon size={32} strokeWidth={1.5} />
+                    </div>
+                    <span className="text-xs font-bold text-gray-300 group-hover:text-gray-400 transition-colors">0{i + 1}</span>
                   </div>
-                  <span className="text-xs font-bold text-gray-300 group-hover:text-gray-400 transition-colors">0{i + 1}</span>
-                </div>
-                
-                <span className={`text-xs font-bold tracking-widest uppercase mb-3 block bg-clip-text text-transparent bg-gradient-to-r ${v.gradient}`}>
-                  {v.subtitle}
-                </span>
-                
-                <h3 className="text-2xl font-bold text-primary mb-4 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-gray-600 transition-all">
-                  {v.title}
-                </h3>
-                
-                <p className="text-gray-500 leading-relaxed mb-6 flex-grow">
-                  {v.description}
-                </p>
+                  
+                  <span className={`text-xs font-bold tracking-widest uppercase mb-3 block bg-clip-text text-transparent bg-gradient-to-r ${v.gradient}`}>
+                    {v.subtitle}
+                  </span>
+                  
+                  <h3 className="text-2xl font-bold text-primary mb-4 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-gray-600 transition-all">
+                    {v.title}
+                  </h3>
+                  
+                  <p className="text-gray-500 leading-relaxed mb-6 flex-grow">
+                    {v.description}
+                  </p>
 
-                <div className="flex items-center text-sm font-bold text-primary group-hover:translate-x-2 transition-transform duration-300">
-                  <span className="mr-2">Saber más</span>
-                  <ArrowUpRight size={16} className="text-secondary" />
-                </div>
-              </CardContent>
-            </Card>
+                  <div className="flex items-center text-sm font-bold text-primary group-hover:translate-x-2 transition-transform duration-300">
+                    <span className="mr-2">Saber más</span>
+                    <ArrowUpRight size={16} className="text-secondary" />
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
           ))}
         </div>
       </div>
