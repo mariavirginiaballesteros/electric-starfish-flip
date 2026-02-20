@@ -100,7 +100,7 @@ const Incentivos = () => {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1522158634235-47a056dc41fa?auto=format&fit=crop&q=90&w=1200" 
+                    src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=90&w=1200" 
                     alt="Premium Team Experience" 
                     className="w-full h-full object-cover"
                   />
