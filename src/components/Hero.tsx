@@ -39,11 +39,6 @@ const Hero = () => {
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
               </Button>
             </Link>
-            <Link to="/nosotros" className="w-full sm:w-auto">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-10 h-16 text-lg w-full">
-                Nuestra Metodología
-              </Button>
-            </Link>
           </div>
         </div>
       </div>
