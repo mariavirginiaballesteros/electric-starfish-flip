@@ -8,7 +8,7 @@ const TripsSection = () => {
     {
       title: "CHINA 2025",
       slogan: "INNOVACIÓN SIN LÍMITES",
-      image: "https://images.unsplash.com/photo-1496442226666-8d4a0e62e6e9?auto=format&fit=crop&q=90&w=1200",
+      image: "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&q=80&w=1200",
       purpose: "Una inmersión profunda en el ecosistema tecnológico más acelerado del mundo. Desde la robótica agrícola hasta las Smart Cities que definen el futuro.",
       highlights: [
         "Visitas a Huawei, DJI y Alibaba",
