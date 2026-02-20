@@ -13,12 +13,15 @@ const Hero = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-32 lg:py-48">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-bold bg-accent-yellow/20 text-accent-yellow border border-accent-yellow/30 mb-8 backdrop-blur-sm animate-fade-in">
+          <div className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-bold bg-accent-yellow/10 text-accent-yellow border border-accent-yellow/30 mb-8 backdrop-blur-md animate-fade-in relative overflow-hidden hover:bg-accent-yellow/20 transition-all duration-300 hover:shadow-[0_0_15px_rgba(234,179,8,0.3)] hover:border-accent-yellow/50 group cursor-default">
+            {/* Efecto de brillo que pasa periódicamente */}
+            <div className="absolute top-0 bottom-0 left-0 w-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full animate-shine z-0"></div>
+            
             <span className="relative flex h-2 w-2 mr-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-yellow opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-yellow"></span>
             </span>
-            INTELIGENCIA EN MOVIMIENTO
+            <span className="relative z-10">INTELIGENCIA EN MOVIMIENTO</span>
           </div>
           
           <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-white mb-8 text-balance leading-[1.1]">
@@ -45,6 +48,17 @@ const Hero = () => {
 
       {/* Bottom Gradient for smooth transition */}
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent z-10"></div>
+      
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes shine {
+          0% { transform: translateX(-100%); }
+          20% { transform: translateX(100%); }
+          100% { transform: translateX(100%); }
+        }
+        .animate-shine {
+          animation: shine 4s infinite linear;
+        }
+      `}} />
     </section>
   );
 };
