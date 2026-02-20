@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
-    alt: "Tecnología Agro de Vanguardia"
+    url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
+    alt: "Robot Agropecuario Autónomo"
   },
   {
     url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
@@ -16,8 +16,8 @@ const images = [
     alt: "Gran Muralla China - Destino Estratégico"
   },
   {
-    url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
-    alt: "Agricultura de Precisión"
+    url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
+    alt: "Tecnología Agro de Vanguardia"
   },
   {
     url: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=2000",
