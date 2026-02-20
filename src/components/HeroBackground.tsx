@@ -8,12 +8,20 @@ const images = [
     alt: "Tecnología Agro de Vanguardia"
   },
   {
+    url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
+    alt: "Drones y Monitoreo Satelital"
+  },
+  {
     url: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&q=80&w=2000",
     alt: "Gran Muralla China - Destino Estratégico"
   },
   {
     url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
     alt: "Agricultura de Precisión"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=2000",
+    alt: "Robótica y Biotecnología"
   },
   {
     url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=2000",
