@@ -4,29 +4,26 @@ import React, { useState, useEffect } from 'react';
 
 const images = [
   {
-    // Drone sobrevolando cultivo (Tecnología aérea)
-    url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
-    alt: "Monitoreo de cultivos con Drones"
-  },
-  {
-    // Tablet y análisis de datos en el campo (Agricultura de precisión)
+    // Imagen de tablet/datos en el campo (Tecnología visible)
     url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
-    alt: "Gestión de Datos y Agricultura Digital"
+    alt: "Agricultura de Precisión y Gestión de Datos"
   },
   {
-    // Operador de drone en campo (Robótica)
+    url: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&q=80&w=2000",
+    alt: "Gran Muralla China - Destino Estratégico"
+  },
+  {
+    // Imagen de drone (Tecnología aérea)
     url: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=2000",
-    alt: "Tecnología de Drones en Acción"
+    alt: "Monitoreo con Drones"
   },
   {
-    // Maquinaria moderna/Cosechadora (Tecnología de fierros)
-    url: "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=2000",
-    alt: "Maquinaria Agrícola de Alta Tecnología"
+    url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=2000",
+    alt: "Paisajes Globales - New York"
   },
   {
-    // Concepto Agrotech/Invernadero inteligente (Innovación)
-    url: "https://images.unsplash.com/photo-1574943320219-55edeb7035ce?auto=format&fit=crop&q=80&w=2000",
-    alt: "Innovación y Robótica en Agro"
+    url: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000",
+    alt: "Conectividad Global"
   }
 ];
 
