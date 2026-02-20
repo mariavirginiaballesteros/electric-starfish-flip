@@ -51,7 +51,7 @@ const Corporativo = () => {
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 mb-6 text-sm font-bold backdrop-blur-sm">
                 <Building2 size={16} />
-                BUSINESS EXCELLENCE
+                VIAJES CORPORATIVOS
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
                 Donde la estrategia <br />
