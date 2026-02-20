@@ -6,23 +6,37 @@ import Footer from '@/components/Footer';
 import TripsSection from '@/components/TripsSection';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Lightbulb } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const ViajesTecnicos = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-20">
-        <section className="bg-primary py-24 text-white relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-accent-yellow/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-yellow/20 text-accent-yellow border border-accent-yellow/30 mb-6 text-sm font-bold">
-              <Lightbulb size={16} />
-              INNOVACIÓN PURA
+        {/* Hero Section Rediseñado */}
+        <section className="relative h-[75vh] flex items-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1538428494232-9c0d8d3a50f0?auto=format&fit=crop&q=90&w=2000" 
+              alt="Innovation Hub Shanghai" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/75 to-transparent"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+             <div className="max-w-3xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-yellow/20 text-accent-yellow border border-accent-yellow/30 mb-6 text-sm font-bold backdrop-blur-sm">
+                  <Lightbulb size={16} />
+                  INNOVACIÓN PURA
+                </div>
+                <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                  Viajes Técnicos
+                </h1>
+                <p className="text-xl text-blue-100/90 max-w-2xl leading-relaxed mb-8">
+                  Lideramos expediciones estratégicas a los epicentros de la innovación global. No diseñamos viajes; decodificamos el futuro del agro para convertirlo en rentabilidad inmediata para su empresa.
+                </p>
             </div>
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">Viajes Técnicos</h1>
-            <p className="text-xl text-blue-100 max-w-2xl leading-relaxed">
-              Lideramos expediciones estratégicas a los epicentros de la innovación global. No diseñamos viajes; decodificamos el futuro del agro para convertirlo en rentabilidad inmediata para su empresa.
-            </p>
           </div>
         </section>
 
@@ -34,10 +48,12 @@ const ViajesTecnicos = () => {
             <p className="text-gray-600 mb-10 max-w-xl mx-auto">
               Desarrollamos itinerarios específicos para grupos de productores, cooperativas o instituciones que buscan resolver desafíos puntuales.
             </p>
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-10">
-              Consultar por Viajes Grupales
-              <ArrowRight className="ml-2" size={20} />
-            </Button>
+            <Link to="/contacto">
+              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-10 h-14 shadow-lg transition-transform hover:scale-105">
+                Consultar por Viajes Grupales
+                <ArrowRight className="ml-2" size={20} />
+              </Button>
+            </Link>
           </div>
         </section>
       </main>
