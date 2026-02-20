@@ -20,6 +20,9 @@
     --secondary: 142 71% 45%; /* Agrotech Green */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
+    /* Accent Yellow */
+    --accent-yellow: 45 93% 47%;
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
@@ -59,4 +62,12 @@
 
 .text-balance {
   text-wrap: balance;
+}
+
+.bg-accent-yellow {
+  background-color: hsl(var(--accent-yellow));
+}
+
+.text-accent-yellow {
+  color: hsl(var(--accent-yellow));
 }
