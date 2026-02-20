@@ -31,8 +31,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl lg:text-2xl text-blue-50/80 mb-12 leading-relaxed max-w-2xl">
-            Transformamos 76 años de confianza en la inteligencia que exige el agrobusiness moderno. 
-            Diseñamos experiencias donde el conocimiento técnico se convierte en rentabilidad.
+            Con el respaldo de más de 100 años de historia diseñamos experiencias donde el conocimiento técnico se convierte en rentabilidad.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-5">
