@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-white mb-8 text-balance leading-[1.1]">
             No cruzamos fronteras para ver el mundo. <br />
             <span className="text-secondary">Las cruzamos para traer el </span>
-            <span className="text-accent-yellow underline decoration-accent-yellow/30 underline-offset-8">futuro</span>.
+            <span className="text-accent-yellow underline decoration-accent-yellow/30 underline-offset-8">futuro del campo</span>.
           </h1>
           
           <p className="text-xl lg:text-2xl text-blue-50/80 mb-12 leading-relaxed max-w-2xl">
