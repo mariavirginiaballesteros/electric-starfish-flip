@@ -4,18 +4,16 @@ import React, { useState, useEffect } from 'react';
 
 const images = [
   {
-    // Imagen de tablet/datos en el campo (Tecnología visible)
-    url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
-    alt: "Agricultura de Precisión y Gestión de Datos"
+    url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
+    alt: "Tecnología Agro de Vanguardia en Campo"
   },
   {
     url: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&q=80&w=2000",
     alt: "Gran Muralla China - Destino Estratégico"
   },
   {
-    // Imagen de drone (Tecnología aérea)
-    url: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=2000",
-    alt: "Monitoreo con Drones"
+    url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
+    alt: "Agricultura de Precisión"
   },
   {
     url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=2000",
