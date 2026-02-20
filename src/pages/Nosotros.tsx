@@ -3,48 +3,44 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AboutHero from '@/components/AboutHero';
+import AboutHistory from '@/components/AboutHistory';
+import AboutValues from '@/components/AboutValues';
+import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Nosotros = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-20">
-        <section className="py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl">
-              <h1 className="text-5xl font-bold text-primary mb-8">Nuestra Historia</h1>
-              <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-                Nacimos hace 76 años en el corazón del movimiento cooperativo argentino. Desde entonces, hemos evolucionado para convertirnos en el socio estratégico de quienes lideran el campo.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-              <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Nuestra esencia"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="space-y-8">
-                <div className="border-l-4 border-accent-yellow pl-8">
-                  <h3 className="text-2xl font-bold text-primary mb-2">Misión</h3>
-                  <p className="text-gray-600">Facilitar el acceso al conocimiento global y la innovación para potenciar la competitividad de nuestros clientes.</p>
-                </div>
-                <div className="border-l-4 border-secondary pl-8">
-                  <h3 className="text-2xl font-bold text-primary mb-2">Visión</h3>
-                  <p className="text-gray-600">Ser el puente indiscutido entre el talento local y la vanguardia tecnológica mundial.</p>
-                </div>
-                <div className="border-l-4 border-primary pl-8">
-                  <h3 className="text-2xl font-bold text-primary mb-2">Valores</h3>
-                  <p className="text-gray-600">Confianza, transparencia, excelencia técnica y compromiso con el desarrollo sostenible.</p>
-                </div>
-              </div>
+        <AboutHero />
+        <AboutHistory />
+        <AboutValues />
+        
+        {/* Sección de Cierre Potente */}
+        <section className="py-24 bg-primary text-white overflow-hidden relative">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 className="text-4xl lg:text-5xl font-bold mb-8">¿Listo para ser parte de la vanguardia?</h2>
+            <p className="text-xl text-blue-100/70 max-w-2xl mx-auto mb-12">
+              Únase a las cientos de empresas y productores que ya están transformando su realidad con el respaldo de Coovaeco.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-6">
+              <a href="/contacto" className="inline-flex items-center justify-center px-8 py-4 bg-secondary text-primary font-bold rounded-full hover:bg-secondary/90 transition-all">
+                Contactar con un Asesor
+              </a>
+              <a href="/viajes-tecnicos" className="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white font-bold rounded-full hover:bg-white/10 transition-all">
+                Explorar Destinos
+              </a>
             </div>
           </div>
+          
+          {/* Decoración de fondo */}
+          <div className="absolute top-0 right-0 w-96 h-96 bg-secondary/10 blur-[120px] rounded-full -mr-48 -mt-48"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent-yellow/5 blur-[120px] rounded-full -ml-48 -mb-48"></div>
         </section>
       </main>
       <Footer />
+      <MadeWithDyad />
     </div>
   );
 };
