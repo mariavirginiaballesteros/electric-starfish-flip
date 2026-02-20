@@ -5,23 +5,23 @@ import React, { useState, useEffect } from 'react';
 const images = [
   {
     url: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=2000",
-    alt: "Robótica de precisión en campo abierto"
+    alt: "Robot Agrícola Autónomo en Campo"
   },
   {
     url: "https://images.unsplash.com/photo-1508197149814-0cc02e8b7f74?auto=format&fit=crop&q=80&w=2000",
-    alt: "Drones de monitoreo multiespectral"
+    alt: "Drones de Precisión sobre Cultivos"
   },
   {
     url: "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80&w=2000",
-    alt: "Sistemas de cultivo vertical automatizado"
+    alt: "Tecnología de Invernadero Inteligente"
   },
   {
-    url: "https://images.unsplash.com/photo-1593115057322-e94b77572f20?auto=format&fit=crop&q=80&w=2000",
-    alt: "Maquinaria autónoma de última generación"
+    url: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=2000",
+    alt: "Brazo Robótico en Laboratorio Agro"
   },
   {
     url: "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&q=80&w=2000",
-    alt: "Análisis de datos y conectividad rural"
+    alt: "Agricultura Digital y Maquinaria Moderna"
   }
 ];
 
@@ -51,14 +51,14 @@ const HeroBackground = () => {
           />
         </div>
       ))}
-      {/* Overlay cinematográfico con gradiente profundo */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/70 to-transparent"></div>
-      <div className="absolute inset-0 bg-black/30"></div>
+      {/* Overlay para asegurar legibilidad del texto */}
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-transparent"></div>
+      <div className="absolute inset-0 bg-black/20"></div>
       
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes slow-zoom {
           0% { transform: scale(1); }
-          100% { transform: scale(1.15); }
+          100% { transform: scale(1.1); }
         }
         .animate-slow-zoom {
           animation: slow-zoom 20s linear infinite alternate;
