@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Viajes Técnicos", path: "/viajes-tecnicos" },
-    { name: "Viajes Corporativos", path: "/corporativos" },
+    { name: "Viajes Corporativos", path: "/corporativo" },
     { name: "Viajes de Incentivo", path: "/incentivos" },
     { name: "Nosotros", path: "/nosotros" },
   ];
