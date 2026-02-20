@@ -4,24 +4,24 @@ import React, { useState, useEffect } from 'react';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=2000",
-    alt: "Robot Inteligente de Monitoreo"
+    url: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=2000",
+    alt: "Robot Agrícola Autónomo en Campo"
   },
   {
-    url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
-    alt: "Brazo Robótico de Precisión"
+    url: "https://images.unsplash.com/photo-1508197149814-0cc02e8b7f74?auto=format&fit=crop&q=80&w=2000",
+    alt: "Drones de Precisión sobre Cultivos"
   },
   {
-    url: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000",
-    alt: "Vehículo Autónomo de Campo"
+    url: "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80&w=2000",
+    alt: "Tecnología de Invernadero Inteligente"
   },
   {
-    url: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=2000",
-    alt: "Biotecnología y Robótica"
+    url: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=2000",
+    alt: "Brazo Robótico en Laboratorio Agro"
   },
   {
-    url: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=2000",
-    alt: "Drones de Análisis Multiespectral"
+    url: "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&q=80&w=2000",
+    alt: "Agricultura Digital y Maquinaria Moderna"
   }
 ];
 
